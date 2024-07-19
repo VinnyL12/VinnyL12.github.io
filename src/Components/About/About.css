@@ -29,6 +29,11 @@
     gap: 80px;
 }
 
+.about-left img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px #EBB717; 
+}
+
 .about-right{
     display: flex;
     flex-direction: column;
@@ -68,7 +73,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #48E5A2 -5.09%, #9A6FE3 106.28%);
+    background: linear-gradient(264deg, #EBB717 -5.09%, #EB7D1C 106.28%);
 }
 
 .about-achievements{
@@ -89,7 +94,7 @@
 .about-achievement h1{
     font-size: 60px;
     font-weight: 700;
-    background: linear-gradient(270deg, #48E5A2 50.41%, #9A6FE3 90.25%);
+    background: linear-gradient(270deg, #EBB717 50.41%, #EB7D1C 90.25%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
