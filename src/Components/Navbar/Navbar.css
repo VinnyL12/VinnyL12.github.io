@@ -78,7 +78,7 @@
         gap: 30px;
         background-color: #32323c;
         width: 350px;
-        height: 30%;
+        height: 50%;
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
