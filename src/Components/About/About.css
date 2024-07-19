@@ -147,6 +147,9 @@
     .about-achievements{
         justify-content: space-between;
     }
+    .about-achievements hr{
+        margin: 20px;
+    }
     .about-achievement{
         gap: 10px;
     }

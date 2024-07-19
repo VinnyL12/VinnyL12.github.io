@@ -11,6 +11,11 @@
     position: relative;
 }
 
+.mywork a{
+    color: white;
+    text-decoration: none;
+}
+
 .mywork-title h1{
     padding: 0px 30px;
     font-size: 80px;
@@ -71,18 +76,7 @@
     padding: 0px 30px;
     font-size: 30px;
     font-weight: 600;
-}
-
-.project-link h3{
-    padding: 0px 30px;
-    font-size: 30px;
-    font-weight: 600;
-    
-}
-
-.project-link a{
     color: #EF4F9D;
-    text-decoration: none;
 }
 
 @media(max-width:768px){

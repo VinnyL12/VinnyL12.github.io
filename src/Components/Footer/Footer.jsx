@@ -1,35 +1,26 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
-import user_icon from '../../assets/user_icon.svg'
+import github_icon from '../../assets/icons8-github.svg'
+import linkedin_icon from '../../assets/icons8-linkedin.svg'
+
 
 const Footer = () => {
-  return (
-    <div className='footer'>
-        <div className="footer-top">
-            <div className="footer-top-left">
-                <img src={footer_logo} alt="" />
-                <p>I am a Full-Stack Developer from Barnegat, NJ with 1+ years of experience...</p>
-            </div>
-            <div className="footer-top-right">
-                <div className="footer-email-input">
-                    <img src={user_icon} alt="" />
-                    <input type="email" placeholder='Enter your email' />
+    return (
+        <div className='footer'>
+            <a href="https://github.com/VinnyL12">
+                <div className="footer-github">
+                    <img src={github_icon} alt="" />
+                    <h2>GitHub</h2>
                 </div>
-                <div className="footer-subscribe">Subscribe</div>
-            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/Vincent-Loretta9/">
+                <div className="footer-linkedin">
+                    <img src={linkedin_icon} alt="" />
+                    <h2>LinkedIn</h2>
+                </div>
+            </a>
         </div>
-        <hr />
-        <div className="footer-bottom">
-            <p className="footer-bottom-left">Copyright 2024 Vincent Loretta. All rights reserved.</p>
-            <div className="footer-bottom-right">
-                <p>Terms of Service</p>
-                <p>Privacy Policy</p>
-                <p>Connect with me</p>
-            </div>
-        </div>
-    </div>
-  )
+    )
 }
 
 export default Footer
