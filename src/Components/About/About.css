@@ -34,18 +34,11 @@
     box-shadow: 0px 0px 5px 5px #EBB717; 
 }
 
-.about-right{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-}
-
 .about-para{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    width: 100%;
+    text-align: center;
     font-size: 24px;
-    font-weight: 500;
+    line-height: 40px;
 }
 
 .about-skills{
@@ -67,7 +60,7 @@
     font-weight: 500;
 }
 
-.about-skill hr{
+.about-skills hr{
     outline: none;
     border: none;
     width: 50%;
@@ -106,6 +99,11 @@
 }
 
 .about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.about-skills hr:hover{
     transform: scale(1.05);
     transition: 0.3s;
 }
