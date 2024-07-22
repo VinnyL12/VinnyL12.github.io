@@ -115,14 +115,13 @@
 
 @media(max-width:768px){
     .about{
-        gap: 80px;
-        margin: 50px 70px;
+        gap: 30px;
+        margin: 50px 40px;
         align-items: start;
     }
     .about-title h1{
         font-size: 40px;
         padding: 0;
-        text-align: center;
     }
     .about-title img{
         width: 130px;
@@ -137,6 +136,11 @@
     .about-para{
         font-size: 18px;
         line-height: 32px;
+        text-align: left;
+        background-color: #32323c;
+        border-radius: 20px;
+        padding: 20px;
+        margin-left: -20px;
     }
     .about-skill{
         gap: 20px;
