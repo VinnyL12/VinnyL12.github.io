@@ -16,10 +16,11 @@
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #EBB717 0.36%, #EB7D1C 102.06%);
+    background: linear-gradient(267deg, #000000 0.36%, #343537 102.06%);
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
+    color: white;
 }
 
 .nav-connect:hover{
@@ -40,7 +41,7 @@
 
 .anchor-link{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .nav-mob-close{

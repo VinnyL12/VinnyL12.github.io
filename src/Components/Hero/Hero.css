@@ -8,7 +8,7 @@
 
 .hero-image {
     margin-top: 150px;
-    box-shadow: 0px 0px 10px 5px #EBB717;    
+    box-shadow: 0px 0px 10px 5px #46A2F2;    
     border-radius: 200px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .hero h1 span{
-    background: linear-gradient(270deg, #EBB717 10%, #EB7D1C 100%);
+    background: linear-gradient(270deg, #46A2F2 10%, #63B2F5 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -44,7 +44,7 @@
 .hero-connect{
     padding: 25px 45px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #EBB717 -5.09%, #EB7D1C 106.28%);
+    background: linear-gradient(264deg, #000000 -5.09%, #343537 106.28%);
     cursor: pointer;
 }
 

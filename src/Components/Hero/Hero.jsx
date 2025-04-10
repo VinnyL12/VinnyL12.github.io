@@ -2,7 +2,7 @@ import React from 'react'
 import './Hero.css'
 import profile_img from '../../assets/circle_profile_pic.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import resume from '../../assets/Resume-VincentLoretta.pdf'
+import resume from '../../assets/TechnicalResume-VincentLoretta.pdf'
 import download_icon from '../../assets/download-icon.svg'
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
       </div>
       <div className='hero-action'>
         <AnchorLink className='anchor-link' offset={50} href='#contact'><div className="hero-connect">Connect with me</div></AnchorLink>
-        <a href={resume} download="Resume-VincentLoretta.pdf" target='_blank'>
+        <a href={resume} download="TechnicalResume-VincentLoretta.pdf" target='_blank'>
           <div className="hero-resume" href={resume}>Resume <img className='hero-resume-image' src={download_icon} alt="" /></div>
         </a>
       </div>
